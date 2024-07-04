@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+
+}
+
+:root {
+    --Roxo-forte: #7400b8ff;
+    --Roxo: #6930c3ff;
+    --Roxo-fraco: #5e60ceff;
+    --Azul-fraco: #5390d9ff;
+    --Azul-muito-fraco: #4ea8deff;
+    --Marinho: #48bfe3ff;
+
+}
