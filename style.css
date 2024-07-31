@@ -10,9 +10,47 @@
 :root {
     --Roxo-forte: #7400b8ff;
     --Roxo: #6930c3ff;
-    --Roxo-fraco: #5e60ceff;
-    --Azul-fraco: #5390d9ff;
+    --Roxo-fraco: rgb(168, 40, 200);
+    --Azul-escuro: rgb(32, 40, 158);
     --Azul-muito-fraco: #4ea8deff;
-    --Marinho: #48bfe3ff;
+    --Marinho-escuro: rgb(0, 58, 76);
+    --fonte-texto: "Playwrite DK Uloopet", cursive;
+    --fonte-titulo: "Playwrite BE WAL", cursive;
 
+}
+body{
+    background-color: var(--Roxo-forte);
+    color: var(--Marinho-escuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto)
+}
+
+.caixa-principal{
+    background-color: var(--Roxo);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo{
+    color: var(--Azul-escuro);
+    font-family: var(--fonte-titulo);
+}
+
+button{
+    background-color: var(--Azul-muito-fraco);
+    color: var(--Roxo-forte);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.3s;
+    margin: 10px auto;
+}
+
+button:hover{
+    background-color: var(--Azul-escuro);
 }
