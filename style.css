@@ -1,35 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-weight: 400;
-
 }
 
 :root {
-    --Roxo-forte: #7400b8ff;
-    --Roxo: #6930c3ff;
-    --Roxo-fraco: rgb(168, 40, 200);
-    --Azul-escuro: rgb(32, 40, 158);
-    --Azul-muito-fraco: #4ea8deff;
-    --Marinho-escuro: rgb(0, 58, 76);
-    --fonte-texto: "Playwrite DK Uloopet", cursive;
-    --fonte-titulo: "Playwrite BE WAL", cursive;
-
+    --azul: rgb(113, 145, 187);
+    --azul-fraco: rgb(100, 132, 150);
+    --branco: rgb(249, 247, 247);
+    --vermelho: rgb(251, 0, 0);
+    --azul-forte: rgb(53, 148, 139);
+    --fonte-texto:"Playfair Display", serif;
+    --fonte-titulo: "Bebas Neue", sans-serif;
 }
+
 body{
-    background-color: var(--Roxo-forte);
-    color: var(--Marinho-escuro);
+    background-color: var(--azul-fraco);
+    color: var(--branco);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: var(--fonte-texto)
+    font-family: var(--fonte-texto);
 }
 
 .caixa-principal{
-    background-color: var(--Roxo);
+    background-color: var(--azul-forte);
     width: 90%;
     max-width: 600px;
     text-align: center;
@@ -37,20 +33,20 @@ body{
 }
 
 .titulo{
-    color: var(--Azul-escuro);
+    color: var(--salmao);
     font-family: var(--fonte-titulo);
 }
 
 button{
-    background-color: var(--Azul-muito-fraco);
-    color: var(--Roxo-forte);
+    background-color: var(--azul);
+    color: var(--salmao);
     border: none;
     border-radius: 15px;
     padding: 15px;
     transition: 0.3s;
-    margin: 10px auto;
+    margin: 10px 10px;   
 }
 
 button:hover{
-    background-color: var(--Azul-escuro);
+    background-color: var(--azul-fraco);
 }
