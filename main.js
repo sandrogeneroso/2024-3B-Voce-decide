@@ -6,14 +6,14 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [
     {
-        enunciado: "Enunciado 01",
+        enunciado: "Carlos é um estudantede pele  negra do ensino medio isso faz ele sofrer ameaças como Carlos deveria agir com a situação",
         alternativas: [
             {
-                texto:"alternativa 01",
-                afirmacao: "resultado 01"
+                texto:"chamar os monitores e resolver de forma pacífica",
+                afirmacao: "O garoto levou a mãe na escola e os pais dos alunos forão chamados tudo foi resolvido com uma suspenção"
             },
             {
-                texto:"alternativa 02",
+                texto:"levar armas e causar um grande conflito",
                 afirmacao: "resultado 02"
             }   
         ]

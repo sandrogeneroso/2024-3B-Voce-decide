@@ -5,11 +5,11 @@
 }
 
 :root {
-    --azul: rgb(113, 145, 187);
-    --azul-fraco: rgb(100, 132, 150);
+    --azul: rgb(187, 113, 156);
+    --azul-fraco: rgb(136, 100, 150);
     --branco: rgb(249, 247, 247);
     --vermelho: rgb(251, 0, 0);
-    --azul-forte: rgb(53, 148, 139);
+    --azul-forte: rgb(148, 53, 148);
     --fonte-texto:"Playfair Display", serif;
     --fonte-titulo: "Bebas Neue", sans-serif;
 }
