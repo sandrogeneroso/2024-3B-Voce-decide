@@ -14,32 +14,32 @@ const perguntas = [
             },
             {
                 texto:"levar armas e causar um grande conflito",
-                afirmacao: "resultado 02"
+                afirmacao: "Carlos leva armas para escola mas é pego e foi expulso"
             }   
         ]
     },
     {
-        enunciado: "Enunciado 02",
+        enunciado: "Um mes se passa com tudo resolvido querendo acabar com essas situação Carlos resolve ter uma ideia",
         alternativas: [
             {
-                texto: "alternativa 03",
-                afirmacao: "resultado03"
+                texto: "fazer um protesto queimando pneu",
+                afirmacao: "querendo resolver a situação cria um protesto em frente a escola mas acaba baleado"
             },
             {
-                texto: "alternativa 04",
-                afirmacao: "resultado 04"
+                texto: "criar uma pagina na internet dedicado a pessoas que sofrem raçismo",
+                afirmacao: "voçe cria uma pagina para combater o raçismo a pagina estoura ganhando milhares de seguidores"
             }
         ]
     },
     {
-        enunciado: "Enunciado 03",
+        enunciado: "andando na rua uma reporte resolve fazer umas pergunta para esclarecer toda essas mudanças em sua vida",
         alternativas: [
             {
-                texto: "alternativa 05",
-                afirmacao: "resultado 05"
+                texto: "xingar a reporter de racista batendo nela",
+                afirmacao: "voçe acaba batendo na reporte uma multidão corre atras de voçe que acaba se escondendo em um beco"
             },
             {
-                texto: "alternativa 06",
+                texto: "fazer a entrevista exclaresendo toda a situação que voçe passou na vida ",
                 afirmacao: "resultado 06"
             }
         ]
